@@ -1,0 +1,90 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+}
+
+header {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+header img {
+  width: 75px;
+  height: auto;
+}
+
+img {
+  background-color: transparent;
+}
+
+.header-text {
+  flex: 1;
+  text-align: center;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.menu-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.menu-section h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #203a43;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.menu-item h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #2c5364;
+}
+
+.price {
+  color: #0f2027;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+footer {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
